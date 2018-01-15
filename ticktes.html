@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-
 <html>
-
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
     <title>Orlando City</title>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/orlando.css">
 
 
-	</head>
-	<body>
+  </head>
+  <body>
 
-      <header>
+    <header>
+      
+      <div class="container">
 
-              <div class="container">
-          <img id="logotipo" src="img/orlando-logo.png" alt="Logotipo">
-             </div>
+        
+        <img id="logotipo" src="img/orlando-logo.png" alt="Logotipo">
+      
+      </div>
 
-             <div class="header-black">
-
-                <div class="container">
+      <div class="header-black">
+        
+        <div class="container">
         
           <ul class="pull-right">
             <li class="club-01"><a href="https://www.chicago-fire.com"></a></li>
@@ -49,19 +51,23 @@
           </ul>
 
         </div>
+
       </div>
-        <div class="container">
+
+      <div class="container">
         
         <div class="row">
           
           <nav id="menu" class="pull-right">
             <ul>
-              <li><a href="#">Tickets</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="videos.html">Videos</a></li>
+              <li><a href="ticktes.html">Tickets</a></li>
               <li><a href="#">News</a></li>
               <li><a href="#">Schedule</a></li>
               <li class="search">
                 <div class="input-group">
-                    <input type="search" placeholder="search">
+                    <input type="search" placeholder="search" id="input-search">
                     <span class="input-group-btn">
                       <button type="button"><i class="fa fa-search"></i></button>
                     </span>
@@ -72,12 +78,11 @@
 
         </div>
 
-      </div>    
+      </div>      
 
-      </header>  
+    </header>
 
-
-        <section>
+   <section>
           
 
             <div id="titulo" class="row text-center">
@@ -115,13 +120,8 @@
             </div> 
 
         </section>
-             
 
-    
-
-
-
-      <footer>
+    <footer>
       
       <div class="row row-cinza-claro">
         
@@ -213,15 +213,19 @@
       </div>
 
     </footer>
-		
 
-	
-		<script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-	</body>
+    <script src="js/efeitos.js"></script>
+
+
+
+    
 
 
 
 
 
+  </body>
 </html>

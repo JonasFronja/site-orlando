@@ -121,7 +121,7 @@ header #logotipo {
 
 #menu li.search.ativo{
 
-	width: 250px;
+	width: 200px;
 }
 
 #menu li.search {
@@ -140,7 +140,7 @@ header #logotipo {
 
 #menu li.search.ativo input{
 
-	width: 250px;
+	width: 200px;
 }
 
 #menu li.search ::-webkit-input-placeholder {
@@ -198,7 +198,7 @@ header #logotipo {
 	color:#5E2799;
 	font-family: 'OpenSans-Light';
 	font-size: 48px;
-	text-transform: uppercase;
+	
 	text-align: center;
 }
 #news hr {
@@ -395,6 +395,11 @@ footer .list-socials a {
 footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
+}
+
+video{
+	 width: 60%;
+	 margin-top: 10px;
 }
 
 
