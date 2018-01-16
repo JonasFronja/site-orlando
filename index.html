@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-
-		
+		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/orlando.css">
+		<link rel="stylesheet" href="css/orlando-mobile.css">
 
 
 	</head>
@@ -16,7 +16,10 @@
 
 		<header>
 			
-			<div class="container">
+			
+
+
+			<div class="container container-logo">
 
 				
 				<a href="index.html"><img id="logotipo" src="img/orlando-logo.png" alt="Logotipo"></a>
@@ -24,6 +27,9 @@
 			</div>
 
 			<div class="header-black">
+
+				 <button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
+			  <button id="btn-search" type="button"><i class="fa fa-search"></i></button>
 				
 				<div class="container">
 				
@@ -97,7 +103,10 @@
 				<div class="row text-center">
 					<h2>Latest News</h2>
 					<hr>	
-				</div>				
+				</div>	
+
+					<button type="button" id="btn-news-prev"><i class="fa fa-angle-left"></i></button>
+						<button type="button" id="btn-news-next"><i class="fa fa-angle-right"></i></button>		
 
 				<div class="row thumbnails owl-carousel owl-theme">
 					<div class="item">
@@ -239,7 +248,7 @@
 					
 					<div class="row">
 						
-						<div class="col-md-2 text-center">
+						<div class="col-md-2 text-center hidden-xs ">
 							
 							<img class="logotipo" src="img/orlando-logo.png" alt="Logotipo">
 
@@ -247,7 +256,7 @@
 						<div class="col-md-10">
 							
 							<div class="row row-cols">
-								<div class="col-md-4 col-popular-post">
+								<div class="col-md-4 col-popular-post hidden-xs ">
 									
 									<h4>POPULAR POSTS</h4>
 
@@ -264,7 +273,7 @@
 									</ul>
 
 								</div>
-								<div class="col-md-4 col-links">
+								<div class="col-md-4 col-links hidden-xs ">
 									
 									<h4>LINKS</h4>
 
@@ -277,13 +286,22 @@
 								</div>
 								<div class="col-md-4 col-get-in-touch">
 									
-									<h4>GET IN TOUCH</h4>
+									<h4 class="hidden-xs">GET IN TOUCH</h4>
 
-									<address>
+									<address class="hidden-xs ">
 										<i class="fa fa-map-marker"></i> <span>618 E. South Street, Suite 510<br/>Orlando, FL 32801</span>
 									</address>
 
-									<p><a href="tel:1855ORLCITY"><i class="fa fa-phone"></i>1.855.ORL.CITY</a></p>
+									<p class="hidden-xs"><a href="tel:1855ORLCITY"><i class="fa fa-phone"></i>1.855.ORL.CITY</a></p>
+
+									<div class="row-fluid visible-xs ">
+									<div class="col-xs-6">
+									<a href="#" class="btn btn-footer "><i class="fa fa-map-marker"></i>Location</a>
+									</div>
+									<div class="col-xs-6">
+									<a href="#" class="btn btn-footer "><i class="fa fa-phone"></i>Call</a>
+									</div>
+									</div>
 
 									<ul class="list-unstyled list-socials">
 										<li>
@@ -313,7 +331,7 @@
 
 			<div class="row row-cinza-escuro">
 				
-				<div class="container">
+				<div class="container copyright-mobile">
 					
 					<p class="pull-left">Copyright © Orlando City Soccer 2018. All rights reserved.</p>
 					<p class="pull-right text-roxo">Created by Jonas Fronja</p>
