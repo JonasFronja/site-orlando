@@ -452,7 +452,7 @@ video{
 	margin-left: 90px;	
 }
 
-#quadrado-roxo{
+#quadrado-roxo {
 
 	width: 63%;
 	height: 550px;
@@ -462,12 +462,12 @@ video{
 	
 }
 
-#quadrado-roxo img{
+#quadrado-roxo  img{
 	max-width: 100%;
 	padding: 25px;
 }
 
-#quadrado-roxo h2{
+#quadrado-roxo  h2{
 	font-family: 'OpenSans-Light';
 	color: #fff;
 	margin-left: 20px;
