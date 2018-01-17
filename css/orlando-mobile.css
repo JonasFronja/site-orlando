@@ -1,6 +1,14 @@
 @media only screen and (max-width: 768px){
 
-	.header-black ul{
+	
+
+
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+   
+
+    .header-black ul{
 
 		display: none;
 	}
@@ -15,6 +23,140 @@
 		margin-top: 40px;
 	}
 
+	#estatisticas p small {
+
+		font-size:50px; 
+	}
+
+
+	footer .list-socials{
+		position: absolute;
+		width: 100%;
+		top: 110px;
+		margin-left: 100px;
+
+	}
+	footer .list-socials a{
+		width: 78px;
+		height: 78px;
+		border-radius: 48%;
+		margin-left: 20px;
+		
+	}
+
+	footer .list-socials i{
+		font-size: 60px;
+		margin-top: 10px;
+	}
+
+	footer .btn-footer{
+		width: 100%;
+		background-color:#11171d;
+		height: 74px;
+		line-height: 35px;
+		margin-top: -10px;
+		font-size: 35px;
+	}
+
+	footer .col-xs-6{
+		padding: 0;
+		padding-right: 15px;
+		padding-left: 15px;
+
+	}
+
+	footer .row-fluid i{
+		font-size: 40px;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+	.owl-carousel .owl-wrapper-outer{
+		margin-left: 15px;
+	}
+
+
+	#estatisticas p {
+
+		font-size: 120px;
+	}
+
+	#call-to-action h2{
+
+		font-size: 50px;
+	}
+	
+	#call-to-action p{
+
+		font-size: 25px;
+	}
+
+	#call-to-action .btn {
+		height: 70px;
+		font-size: 30px;
+		line-height:50px;
+		
+	}
+
+	#call-to-action .btn-roxo {
+		float: left;
+		width: 250px;
+		margin-left: -120px;
+
+	}
+	#call-to-action .btn-amarelo {
+		float: right;
+		width: 250px;
+		margin-right: -120px;
+	}
+
+	.copyright-mobile p{
+
+		font-size: 25px;
+		
+
+
+	}
+
+	footer .row-cinza-escuro {
+		height: 100px;
+
+	}
+
+
+
+	#access {
+     height: 217px;
+
+	}
+
+	#quadrado-roxo{
+		width: 80%;
+		height: 400px;
+	}
+
+	#quadrado-roxo h2{
+		font-size: 39px;
+		margin-top: 8px;
+	}
+
+	#quadrado-roxo .btn{
+		height: 50px;
+		margin-left: 70px;
+		font-size: 20px;
+		margin-top: 8px;
+	}
+
+	#duvida h2{
+		font-size: 38px;
+
+	}
+
+
+	#duvida h4{
+		font-size: 25px;
+		
+	}
 
 }
 
